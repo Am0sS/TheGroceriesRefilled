@@ -1,0 +1,1 @@
+Everyone works in their own folder. Do not touch other's folder and do not push to other's folder. 
