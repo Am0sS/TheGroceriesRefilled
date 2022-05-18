@@ -11,7 +11,6 @@ public class PlayerMovement : MonoBehaviour
     [Tooltip("Base value is 12")]   public float speed = 12f;
     [Tooltip("Base value is -20")]  public float gravity = -20f;
     [Tooltip("Base value is 0.4")]  public float groundCheckDistance = 0.4f;
-    [Tooltip("Base value is 2")]    public float jumpHeight = 2f;
     Vector3 velocity;
     bool isGrounded;
 
@@ -41,10 +40,6 @@ public class PlayerMovement : MonoBehaviour
         // Gravity
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
-
-        // Jump
-        if (isGrounded == true && Input.GetButtonDown("Jump"))
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
 
         // Running
         if (Input.GetKey(KeyCode.LeftShift))
