@@ -46,7 +46,5 @@ public class PlayerMovement : MonoBehaviour
             speed = 15f;
         else
             speed = 12f;
-
-        Debug.Log(speed);
     }
 }
