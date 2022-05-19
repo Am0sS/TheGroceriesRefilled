@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4e690273934bd5f43af728b56e7d29e4, type: 2}
+  - {fileID: 2100000, guid: d03bc07831758be46ab75f5895ebd672, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 1205503097300780702}
   - component: {fileID: 1205503097300780697}
   - component: {fileID: 1205503097300780696}
-  - component: {fileID: 1205503097300780703}
+  - component: {fileID: 6236376351825104256}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -195,7 +195,7 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205503097300780699}
   m_Enabled: 1
---- !u!114 &1205503097300780703
+--- !u!114 &6236376351825104256
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1205503097300780699}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ea7e974f61d6dc4b8388c44d2ec6973, type: 3}
+  m_Script: {fileID: 11500000, guid: 259356fc41814b4439b72dc67e8e9572, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mouseSensitivity: 800
@@ -219,7 +219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1205503098434240452}
   - component: {fileID: 1205503098434240453}
-  - component: {fileID: 1205503098434240474}
+  - component: {fileID: 2773101331777029987}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -262,7 +262,7 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1205503098434240474
+--- !u!114 &2773101331777029987
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -271,7 +271,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1205503098434240455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2bdfd6a30f07bf4093c5e7c9c24ae2e, type: 3}
+  m_Script: {fileID: 11500000, guid: 718577d48771b2947be69b3453017009, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 12
