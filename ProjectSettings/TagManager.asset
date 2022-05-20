@@ -8,6 +8,16 @@ TagManager:
   - RefillStation1
   - RefillStation2
   - RefillStation3
+  - Ground
+  - dairyBox
+  - houseHoldBox
+  - vegAndFruitBox
+  - petFoodBox
+  - drinkBox
+  - paperBox
+  - meatBox
+  - fillArea
+  - refillPoint
   layers:
   - Default
   - TransparentFX
