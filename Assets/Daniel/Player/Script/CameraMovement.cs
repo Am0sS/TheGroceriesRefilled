@@ -6,7 +6,7 @@ public class CameraMovement : MonoBehaviour
 {
     // VARIABLES
     [Header("Mouse Sensitivity")]
-    [Tooltip("Base value is 800")] public float mouseSensitivity = 800f;
+    [Tooltip("Base value is 800")] public float mouseSensitivity = 2f;
     public Transform playerObject;
     float xRotation = 0f;
 
@@ -20,8 +20,8 @@ public class CameraMovement : MonoBehaviour
     void Update()
     {
         // Axis
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity;
 
         // Rotation
         xRotation -= mouseY;
