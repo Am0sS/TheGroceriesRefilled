@@ -18,6 +18,8 @@ TagManager:
   - meatBox
   - fillArea
   - refillPoint
+  - Trash
+  - Door
   layers:
   - Default
   - TransparentFX
